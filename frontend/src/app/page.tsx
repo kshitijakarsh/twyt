@@ -8,7 +8,7 @@ import { BorderBeam } from "@/components/magicui/border-beam";
 import TweetPost from "@/components/TweetPost";
 import KeyFeatures from "@/components/KeyFeatures";
 import Footer from "@/components/Footer";
-import { CheckCircle2, Sparkles } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import axios from "axios";
 
 export default function Home() {
@@ -53,13 +53,6 @@ export default function Home() {
     } finally {
       setLoading(false);
     }
-  };
-
-  const resetForm = () => {
-    setJoined(false);
-    setName("");
-    setEmail("");
-    setError("");
   };
 
   return (
@@ -172,7 +165,6 @@ export default function Home() {
                     Thanks for joining! We'll notify you when you can start
                     creating better tweets.
                   </p>
-
                   
                 </div>
               )}

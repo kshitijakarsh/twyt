@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { BentoGrid, BentoCard } from "./magicui/bento-grid";
-import { X, Zap, Clock, Shield, Smile, icons } from "lucide-react";
+import { X, Zap, Clock, Shield, Smile } from "lucide-react";
 import TaperedLinesBackground from "./HeroBackground";
-import { ShineBorder } from "./magicui/shine-border";
 
 const features = [
   {

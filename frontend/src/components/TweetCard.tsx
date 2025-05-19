@@ -13,8 +13,8 @@ export default function TweetCard({ tweetContent }: TweetCardProps) {
 
   const [likeCount, setLikeCount] = useState(348);
   const [retweetCount, setRetweetCount] = useState(105);
-  const [replyCount, setReplyCount] = useState(24);
-  const [viewCount, setViewCount] = useState(2804);
+  const replyCount = 24;
+  const viewCount = 2804;
 
   const tweet = {
     profileImage: "/image.png",
