@@ -37,7 +37,7 @@ export default function Home() {
     setError("");
 
     try {
-      const response = await axios.post("http://localhost:8000/waitlist", {
+      const response = await axios.post("https://twyt.onrender.com/waitlist", {
         name,
         email,
       });
