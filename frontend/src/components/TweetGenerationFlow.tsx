@@ -11,7 +11,7 @@ export default function TweetGenerationFlow() {
   const handleTweetClick = (content: any) => setTweet(content);
 
   return (
-    <section className="relative w-full py-20 px-4 md:px-8 flex flex-col items-center bg-black/60 overflow-hidden h-screen">
+    <section className="relative w-full py-24 px-4 md:px-8 flex flex-col items-center bg-black/60 overflow-hidden h-screen">
       <div className="absolute inset-0 -z-10">
         <TaperedLinesBackground />
       </div>

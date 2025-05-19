@@ -82,7 +82,7 @@ const features = [
 export default function KeyFeatures() {
   return (
     <>
-      <section className="relative bg-black py-16 px-4 md:px-8 w-full overflow-hidden min-h-screen flex flex-col justify-center pb-44" >
+      <section className="relative bg-black py-28 px-4 md:px-8 w-full overflow-hidden min-h-screen flex flex-col justify-center pb-44" >
         <div className="absolute inset-0 w-full h-full -z-10">
           <TaperedLinesBackground />
         </div>

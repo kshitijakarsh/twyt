@@ -88,15 +88,6 @@ export default function TweetPost() {
               <Image size={20} />
             </button>
             <button className={iconColor}>
-              <Gift size={20} />
-            </button>
-            <button className={iconColor}>
-              <Camera size={20} />
-            </button>
-            <button className={iconColor}>
-              <Settings size={20} />
-            </button>
-            <button className={iconColor}>
               <Smile size={20} />
             </button>
             <button className={iconColor}>
